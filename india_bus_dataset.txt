@@ -1,0 +1,61 @@
+India Bus Booking Dataset (All Routes + Support Info)
+
+Customer Care Support:
+Company: RedBus (Sample Reference)
+Helpline: 080-12345678
+Email: support@busbooking.com
+Working Hours: 24/7
+
+--------------------------------------------------
+
+Route: Bangalore → Chennai | Date: 2026-04-10
+Operator: KSRTC | Type: AC Sleeper | Departure: 22:30 | Arrival: 05:30 | Price: 850 | Seats: 12
+Operator: VRL Travels | Type: Volvo AC | Departure: 23:00 | Arrival: 06:30 | Price: 1200 | Seats: 8
+
+Route: Bangalore → Hyderabad
+Operator: Orange Travels | Type: AC Sleeper | Departure: 20:30 | Arrival: 06:00 | Price: 1100 | Seats: 10
+Operator: KSRTC | Type: Non-AC Sleeper | Departure: 19:00 | Arrival: 05:00 | Price: 750 | Seats: 15
+
+Route: Mumbai → Pune
+Operator: Neeta Travels | Type: AC Seater | Departure: 18:00 | Arrival: 22:00 | Price: 500 | Seats: 20
+Operator: VRL Travels | Type: Volvo AC | Departure: 19:00 | Arrival: 23:00 | Price: 700 | Seats: 15
+
+Route: Delhi → Jaipur
+Operator: RSRTC | Type: AC Seater | Departure: 06:00 | Arrival: 11:00 | Price: 450 | Seats: 30
+Operator: Zingbus | Type: Sleeper | Departure: 23:00 | Arrival: 05:00 | Price: 800 | Seats: 18
+
+Route: Delhi → Chandigarh
+Operator: Haryana Roadways | Type: Non-AC Seater | Departure: 08:00 | Arrival: 13:00 | Price: 350 | Seats: 40
+Operator: IntrCity | Type: AC Sleeper | Departure: 22:00 | Arrival: 04:00 | Price: 900 | Seats: 12
+
+Route: Chennai → Madurai
+Operator: KPN Travels | Type: AC Sleeper | Departure: 21:30 | Arrival: 05:30 | Price: 950 | Seats: 10
+Operator: Parveen Travels | Type: Non-AC Sleeper | Departure: 20:30 | Arrival: 06:00 | Price: 700 | Seats: 18
+
+Route: Kolkata → Durgapur
+Operator: SBSTC | Type: Non-AC Seater | Departure: 07:00 | Arrival: 11:00 | Price: 300 | Seats: 35
+Operator: GreenLine | Type: AC Seater | Departure: 18:00 | Arrival: 22:00 | Price: 550 | Seats: 25
+
+Route: Ahmedabad → Surat
+Operator: GSRTC | Type: AC Seater | Departure: 09:00 | Arrival: 14:00 | Price: 400 | Seats: 28
+Operator: Patel Travels | Type: Sleeper | Departure: 22:00 | Arrival: 04:00 | Price: 750 | Seats: 16
+
+--------------------------------------------------
+
+Booking Data
+
+BookingID: RB20001 | Name: Ravi Kumar | Route: Mumbai-Pune | Seat: A1 | Status: Confirmed
+BookingID: RB20002 | Name: Sneha Patel | Route: Delhi-Jaipur | Seat: B3 | Status: Confirmed
+BookingID: RB20003 | Name: Imran Khan | Route: Bangalore-Chennai | Seat: L10 | Status: Pending
+
+--------------------------------------------------
+
+Chatbot Sample
+
+User: Show buses from Delhi to Jaipur
+Bot: Found 2 buses. Prices start from ₹450.
+
+User: Need AC sleeper
+Bot: Available at ₹800 departing 23:00.
+
+--------------------------------------------------
