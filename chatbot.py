@@ -1,8 +1,8 @@
 import streamlit as st
-from google import genai
+import google.genai as genai
 
 # --- Config ---
-API_KEY = "YOUR_API_KEY"  # Replace with your key
+API_KEY = "AIzaSyCEHGqItYSyxEKW_sRPMKDeRAvcQeBAPqY"  # Replace with your key
 KB_FILE = "india_bus_dataset.txt"
 MODEL = "gemini-2.5-flash"
 
